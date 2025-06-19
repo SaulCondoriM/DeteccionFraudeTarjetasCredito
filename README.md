@@ -27,30 +27,6 @@ Se compara los dos modelos principales para la detección de fraude financiero e
 - **Etiquetas fraudulentas:** 4,863 (10.58%)
 - **División:** 60% entrenamiento, 20% validación, 20% prueba
 
-### Hiperparámetros Optimizados
-
-#### HOGRL
-```yaml
-learning_rate: 0.001
-batch_size: 256
-embedding_dim: 128
-num_layers: 3
-dropout: 0.2
-high_order_hops: 3
-attention_heads: 8
-```
-
-#### RGTAN
-```yaml
-learning_rate: 0.0015
-batch_size: 128
-embedding_dim: 64
-num_layers: 2
-dropout: 0.3
-temporal_window: 7
-risk_threshold: 0.7
-```
-
 ## Resultados Experimentales
 
 ### Métricas de Rendimiento
