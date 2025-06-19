@@ -176,8 +176,4 @@ Los resultados experimentales demuestran que **HOGRL supera consistentemente a R
 
 La superioridad de HOGRL es especialmente notable en el dataset YelpChi, sugiriendo que el modelo es más robusto ante diferentes tipos de patrones de fraude y estructuras de datos.
 
----
 
-**Fecha de Experimentación:** Junio 2025  
-**Autor:** [Tu Nombre]  
-**Repositorio:** Based on AI4Risk/antifraud framework
