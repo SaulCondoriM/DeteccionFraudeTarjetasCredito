@@ -147,29 +147,6 @@ Pos         41   140
    - Los datos tienen patrones temporales muy marcados
    - Se requiere interpretabilidad del componente de riesgo
 
-### Trabajo Futuro
-- Evaluación en datasets de mayor escala (>1M transacciones)
-- Implementación de ensemble HOGRL+RGTAN
-- Análisis de robustez ante ataques adversariales
-
-## Reproducibilidad
-
-### Comandos de Ejecución
-```bash
-# HOGRL
-python main.py --method hogrl --dataset amazon --config config/hogrl_cfg.yaml --seed 42
-python main.py --method hogrl --dataset yelpchi --config config/hogrl_cfg.yaml --seed 42
-
-# RGTAN  
-python main.py --method rgtan --dataset amazon --config config/rgtan_cfg.yaml --seed 42
-python main.py --method rgtan --dataset yelpchi --config config/rgtan_cfg.yaml --seed 42
-```
-
-### Archivos de Configuración
-Los archivos de configuración optimizados están disponibles en:
-- `config/hogrl_optimized.yaml`
-- `config/rgtan_optimized.yaml`
-
 ## Conclusiones
 
 Los resultados experimentales demuestran que **HOGRL supera consistentemente a RGTAN** en ambos datasets evaluados. Las mejoras más significativas se observan en el Average Precision (AP) y en la eficiencia computacional. HOGRL representa una evolución natural en la detección de fraude basada en grafos, aprovechando mejor las relaciones de alto orden inherentes en los datos financieros.
