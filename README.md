@@ -1,4 +1,4 @@
-# Comparación de Modelos: HOGRL vs RGTAN para Detección de Fraude en Tarjetas de Credito
+# Comparación de Modelos: HOGRL vs RGTAN para Detección de Fraude en Tarjetas de Credito con el dataset de Amazon y YelpChi
 
 Se compara los dos modelos principales para la detección de fraude financiero en tarjetas de credito: **HOGRL** (High-order Graph Representation Learning) y **RGTAN** (Risk-aware Graph Temporal Attention Network). Los experimentos fueron ejecutados en los datasets Amazon y YelpChi.
 
